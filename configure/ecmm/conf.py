@@ -1,0 +1,26 @@
+
+
+params = {
+    'model_name':"ECMM",
+    "use_keras": True,
+    "block_num": [8, 8],
+    "beta": 0.9,
+    "gamma": 1.1,
+    "epsilon": 2,
+    "ecmm_type":"aver",
+    "sb_hidden_size": 128,
+    "trans_units": 64,
+    "task_num": 2,
+    'field_count':22,
+    'feature_count': 2**26,
+    'dim': 8,
+    'batch_size': 4096,
+    'parallel' : 16,
+    'learning_rate': 0.0004,
+    'deep_layers':[128,64,32],
+    'model_dir': 'model/ecmm',
+    'train_dir': './data/train',
+    'test_dir': './data/test',
+    'begin_day': '02',
+    'end_day': '02',
+}

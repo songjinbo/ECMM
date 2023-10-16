@@ -1,0 +1,23 @@
+
+params = {
+    'model_name':"FSCD",
+    't': 0.1,
+    'gamma1': 1,
+    'gamma2': 1e-2,
+    'lambda': 0.0001,
+    'K': 11,
+    'field_count':22,
+    'feature_count': 2**26,
+    'dim': 8,
+    'batch_size': 4096,
+    'parallel' : 16,
+    'learning_rate': 0.0004,
+    'deep_layers':[128,64,32],
+    'class_num': 3,
+    'model_dir': 'model/fscd-softmax',
+    'train_dir': './data/train',
+    'test_dir': './data/test',
+    #'select_num': 11,
+    'begin_day': '02',
+    'end_day': '02',
+}
